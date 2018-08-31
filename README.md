@@ -245,6 +245,11 @@ They are not required for linting. You should see the linter output right in you
 
 You would need to install an ESLint plugin for your editor first. Then, add a file called `.eslintrc` to the project root:
 
+install following packages :
+yarn add --dev eslint prettier eslint-config-airbnb@^15.0.1 eslint-config-prettier eslint-plugin-prettier 
+
+eslint-plugin-react eslint-plugin-import eslint-plugin-jsx-a11y@^5.1.1
+
 ```js
 {
   "extends": "react-app"
